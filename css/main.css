@@ -347,6 +347,13 @@ body::-webkit-scrollbar-thumb:vertical:hover {
     	left: 11px;
 	}
 }
+@media screen and (max-width: 300px) {
+	.login__btn {
+		padding: 6px 15px;
+		font-size: 12px;
+	}
+}
+
 
 
 /*---------кнопка входа--------*/

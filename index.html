@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Кодировка -->
+	<meta charset="UTF-8">
+	<!-- Адаптивность -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	<!-- Заголовок страницы -->
+	<title>icrowdme</title>
+	<!-- Подключение основного файла со стилями -->
+	<link type="text/css" rel="stylesheet" href="./css/main.css">
+	<!-- Обнуление браузерных стилей -->
+	<link rel="stylesheet" href="./css/normalize.css">
+	<!-- Подключение иконочного шрифта Font Awesome -->
+	<link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<!-- Подключение локального файла Font Awesome -->
+	<link type="text/css" rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+
+	<!-- Полная загрука сайта -->
+	<div class="preloader" id="page-preloader">
+		<div class="loader">
+		</div>
+	</div>
+
+
+	<!-- Скролл наверх -->
+	<div class="scroll__top" id="scroll-top">
+		<i class="far fa-arrow-alt-circle-up scroll-top-icon"></i>
+	</div>
+
+
+	<!-- ------------ ШАПКА ------------- -->
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="logo">
+					<a href="index.html">
+						<img class="logo__img" src="img/header/logo.png" alt="logo">
+					</a>
+				</div>
+
+
+				<!-- Menu -->
+				<nav class="header__menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#home">home</a>
+						</li>
+					
+						<li class="menu__item">
+							<a class="menu__link" href="#howItWorks">how it works</a>
+						</li>
+					
+						<li class="menu__item">
+							<a class="menu__link" href="#blog">blog</a>
+						</li>
+					
+						<li class="menu__item">
+							<a class="menu__link" href="#findOutMore">find out more</a>
+						</li>
+				
+						<li class="menu__item">
+							<a class="menu__link" href="#featuredProject">featured project</a>
+						</li>
+					</ul>
+
+				</nav>
+
+				<div class="header__right">
+					<!-- Button that activates a panel with a menu -->
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<!-- Кнопка входа в аккаунт -->
+					<div class="login__button">
+						<button class="login__btn">
+							login
+						</button>
+					</div>
+				</div>
+
+				<!-- Окно входа в аккаунт -->
+				<div class="popup__login">
+						<div class="popup__login-body">
+							<button class="popup__login-close">
+								<i class="fas fa-times"></i>
+							</button>
+							<div class="popup__login-text">
+								<h4 class="popup__login-title">
+									Вход в аккунт
+								</h4>
+								<form action="" class="popup__login-form">
+									<input class="login-form__name login-form__item" type="text" placeholder="Никнейм или почта" required>
+									<i class="fas fa-eye eye-pass-btn"></i>
+									<i class="fas fa-eye-slash eye-pass-btn"></i>
+									<input class="login-form__password login-form__item" type="password" placeholder="Ваш пароль" required>
+									<button class="login-form__button login-form__item">
+										Войти
+									</button>
+									<a class="login-form__registred-link" href="#">Не имеете аккаунта? Давайте зарегистрируемся!</a>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Регистрация на сайте -->
+				<div class="popup__register">
+					<div class="popup__register-body">
+						<button class="popup__register-close">
+							<i class="fas fa-times"></i>
+						</button>
+						<div class="popup__register-text">
+							<h4 class="popup__register-title">
+								Регистрация
+							</h4>
+							<form action="" class="popup__register-form">
+								<input class="register-form__name register-form__item" type="text" placeholder="Никнейм или почта" required>
+
+								<i class="fas fa-eye eye-pass-btn"></i>
+								<i class="fas fa-eye-slash eye-pass-btn"></i>
+								<input class="register-form__password register-form__item" type="password" placeholder="Введите пароль" required>
+								
+								<input class="register-form__password register-form__item" type="password" placeholder="Повторите пароль" required>
+
+								<button class="register-form__button register-form__item">
+									Зарегистрироваться
+								</button>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+		</div>
+	</header>
+
+
+
+
+
+
+
+	<!-- ------------ ЗАГОЛОВОК САЙТА ------------- -->
+	<section class="intro" id="home">
+		<div class="container">
+			<div class="intro__inner slider">
+				<div class="intro__content slider__item">
+					<div class="intro__title">
+						<h1 class="title">
+							Intellectual Property has the Shelf Life
+						</h1>
+						<h2 class="subtitle">
+							of a Banana.
+						</h2>
+					</div>
+					<div class="intro__button">
+						<a href="#" class="intro__btn">
+							Become a Member 
+						</a>
+					</div>
+				</div>
+				<div class="intro__content slider__item">
+					<div class="intro__title">
+						<h1 class="title">
+							Intellectual Property has the Shelf Life 
+						</h1>
+						<h2 class="subtitle">
+							of a Banana.
+						</h2>
+					</div>
+					<div class="intro__button">
+						<a href="#" class="intro__btn">
+							Become a Member 
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- ------------ ОСНОВНАЯ ИНФОРМАЦИЯ ------------- -->
+
+	<!-- Первая секция -->
+	<section class="first-sec" id="howItWorks">
+		<div class="container">
+			<div class="first-sec__inner">
+				<div class="first-sec__content">
+					<img class="first-sec__img" src="img/content/Shape.png" alt="shape">
+					<h2 class="first-sec__title">
+						our work is the presentation <br> 
+						of our capabilities.
+					</h2>
+					<p class="first-sec__text">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel amet recusandae quod vitae asperiores dolores, eos, quis voluptates itaque, error nam adipisci 
+								
+					</p>
+					<p class="first-sec__text">
+						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+						Lorem, ipsum dolor sit amet consectetur, adipisicing elit. In fugit dolore accusamus dolor facilis iste itaque cupiditate nisi autem sapiente soluta alias, ea veritatis libero provident neque magni illo quibusdam.
+						Minima, enim. Magni minus labore voluptatum 
+					
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Вторая секция -->
+	<section class="second-sec" id="blog">
+		<div class="container">
+			<div class="second-sec__inner">
+				<div class="second-sec__content">
+
+					<div class="tabs">
+
+						<nav class="tabs__items">
+							<a href class="tabs__item  active">
+								<span class="tabs__number active" data-tab="1">1</span>
+								<span class="tabs__caption">Simple</span>
+							</a>
+							<a href class="tabs__item">
+								<span class="tabs__number" data-tab="2">2</span>
+								<span class="tabs__caption">Transparent</span>
+							</a>
+							<a href class="tabs__item ">
+								<span class="tabs__number" data-tab="3">3</span>
+								<span class="tabs__caption">Collaborative</span>
+							</a>
+						</nav>
+
+						<div class="tabs__block active" id="">
+							<div class="tab__image">
+								<img class="tab__img" src="img/content/glasses.png" alt="glasses">
+							</div>
+							<div class="tab__content">
+								<h3 class="tabs__title">
+									Simple, like booking a hotel online !
+								</h3>
+								<p class="tabs__text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores nostrum distinctio nobis magnam esse veritatis rerum aspernatur, quasi vero expedita voluptate, ratione et? Reprehenderit, quisquam, impedit. Culpa repudiandae nemo itaque!
+								</p>
+							</div>
+						</div>
+
+						<div class="tabs__block" id="">
+							<div class="tab__image">
+								<img class="tab__img" src="img/content/glasses.png" alt="glasses">
+							</div>
+							<div class="tab__content">
+								<h3 class="tabs__title">
+									Transparent, like booking a hotel online !
+								</h3>
+								<p class="tabs__text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Lorem ipsum dolor sit, amet consectetur 
+								</p>
+							</div>
+						</div>
+
+						<div class="tabs__block " id="">
+							<div class="tab__image">
+								<img class="tab__img" src="img/content/glasses.png" alt="glasses">
+							</div>
+							<div class="tab__content">
+								<h3 class="tabs__title">
+									Collaborative, like booking a hotel online !
+								</h3>
+								<p class="tabs__text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua.
+									Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Deleniti dolore atque ad ullam, inventore non esse deserunt, saepe veritatis magnam impedit adipisci id? Suscipit, asperiores? Assumenda enim ipsum ullam architecto.
+									 Magnam alias unde, quae molestias neque quidem corporis, veritatis blanditiis nam dolorum voluptas ratione hic quos. Fugiat quibusdam maxime temporibus. Dignissimos quis nisi fuga dolor vitae odio molestias, reprehenderit autem!
+									 Culpa molestias tempore, deserunt quis vitae earum quaerat quo. Iste pariatur sint ipsum nemo illo molestiae repellendus, molestias repudiandae accusantium impedit, blanditiis dicta est, tempora distinctio et expedita voluptatem voluptate!
+									 Tenetur assumenda maxime, deserunt ratione et! Fugit, nemo? Dolores aliquid ullam deleniti, officiis maiores fugit voluptatibus eum debitis sequi dolorem optio atque sint facilis impedit voluptatum facere nam. Praesentium, atque. 
+								</p>
+							</div>
+						</div>
+					</div>
+
+					
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- ------------ Третья секция ----------------- -->
+	<section class="third-sec" id="findOutMore">
+		<div class="container">
+			<div class="third-sec__inner">
+
+				<div class="third-sec__content">
+					<div class="third-sec__image">
+						<img class="third-sec__img" src="img/content/smart_object_1.png" alt="Property">
+					</div>
+					<div class="third-sec__info">
+						<h3 class="third-sec__title">Find Properties</h3>
+						<p class="third-sec__text">Sign up to browse the portfolio.
+						Your journey to becoming a real estate baron starts here.
+						</p>
+						<a href="#" class="third-sec__link">Become A Member</a>
+					</div>
+				</div>
+
+				<div class="third-sec__content">
+					<div class="third-sec__image">
+						<img class="third-sec__img" src="img/content/smart_object_2.png" alt="Property">
+					</div>
+					<div class="third-sec__info">
+						<h3 class="third-sec__title">Find Buyers</h3>
+						<p class="third-sec__text">
+							Sign up to browse the portfolio.
+							Your journey to becoming a real estate baron starts here.
+						</p>
+						<a href="#" class="third-sec__link">Submit Your Project</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- ---------------- Четвертая секция -------------- -->
+	<section class="fourth-sec" id="featuredProject">
+		<div class="container">
+			<div class="fourth-sec__inner">
+				<div class="fourth-sec__top">
+
+					<div class="fourth-sec__top-caption">
+						<h2 class="fourth-sec__top-title">
+							Featured Projects
+						</h2>
+						<p class="fourth-sec__top-text">
+							Brief details of new and popular projects. To view full listings, you will be required to sign up and become a member.
+						</p>
+					</div>
+
+					<div class="fourth-sec__top-button">
+						<a class="fourth-sec__top-btn" href="#">
+							Become a Member
+						</a>
+					</div>	
+
+				</div>
+
+				<div class="fourth-sec__cards">
+
+					<!-- Первая карточка -->
+					<div class="card">
+						<div class="card__item">
+							<div class="card__image" id="card__image-1">
+								<img class="card__img-new" src="./img/content/new.png" alt="new">
+								<span class="card__imt-tag">
+									From GBP 3600
+								</span>
+							</div>
+							<div class="card__content">
+								<div class="card__caption">
+									<h3 class="card__title">
+										Ontario Tower , LONDON 1
+									</h3>
+									<p class="card__text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+									</p>
+								</div>
+								<div class="card__progres-bar">
+									<div class="card__progress">
+										<span class="card__progress-fill" per="20">
+										</span>
+									</div>
+									<div class="card__progress-result">
+										<p>
+											<span class="card__progress-percent" per="20">20</span> 
+											<span>%</span>
+											<span>Funded</span>
+										</p>
+										<p>
+											8 Days Left
+										</p>
+									</div>
+								</div>
+								<div class="card__details">
+									<a class="card__link" id="card-link-1">
+										<span class="card__details-text">See Project Details</span>
+										<i class="fas fa-play card__details-icon"></i>
+									</a>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Первая попап карточка -->
+					<div class="card-popup__wrapper" id="card-popup-1">
+						<div class="card-popup__inner">
+
+							<div class="card-popup__top">
+								<button class="card-popup__close">
+									<i class="fas fa-times"></i>
+								</button>
+							</div>	
+
+							<div class="card-popup__content">
+								<h3 class="card-popup__title">
+									Ontario Tower , LONDON 1
+								</h3>
+								<img src="./img/content/card_bg_1.jpg" alt="img" class="card-popup__img">
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non  
+								</p>
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non
+									Lorem ipsum dolor sit, amet consectetur adipisicing, elit. At nihil deserunt ipsa vel qui voluptatibus nemo, odio ut accusamus consequuntur inventore similique sapiente atque expedita assumenda ipsum veniam quis dolorum.  
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, beatae quia vitae animi officiis repellat, sit maxime? Magnam incidunt alias, accusantium aspernatur repellat officiis velit consequatur ipsa, doloremque laudantium nulla? 
+								</p>
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae ea praesentium reiciendis iusto alias quas, porro, voluptates amet laboriosam quasi iste nihil ipsa hic quibusdam labore, perspiciatis mollitia neque?
+								</p>
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non  
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Вторая карточка -->
+					<div class="card">
+						<div class="card__item">
+							<div class="card__image" id="card__image-2">
+								<img class="card__img-new" src="./img/content/new.png" alt="new">
+								<span class="card__imt-tag">
+									From GBP 3600
+								</span>
+							</div>
+							<div class="card__content">
+								<div class="card__caption">
+									<h3 class="card__title">
+										Ontario Tower , LONDON 2
+									</h3>
+									<p class="card__text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Lorem, ipsum, dolor.
+									</p>
+								</div>
+								<div class="card__progres-bar">
+									<div class="card__progress">
+										<span class="card__progress-fill" per="70">
+										</span>
+									</div>
+									<div class="card__progress-result">
+										<p>
+											<span class="card__progress-percent" per="70">70</span> 
+											<span>%</span>
+											<span>Funded</span>
+										</p>
+										<p>
+											8 Days Left
+										</p>
+									</div>
+								</div>
+								<div class="card__details">
+									<a class="card__link" id="card-link-2">
+										<span class="card__details-text">See Project Details</span>
+										<i class="fas fa-play card__details-icon"></i>
+									</a>	
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Вторая попап карточка -->
+					<div class="card-popup__wrapper" id="card-popup-2">
+						<div class="card-popup__inner">
+							<div class="card-popup__top">
+								<button class="card-popup__close">
+									<i class="fas fa-times"></i>
+								</button>
+							</div>	
+
+							<div class="card-popup__content">
+								<h3 class="card-popup__title">
+									Ontario Tower , LONDON 2
+								</h3>
+								<img src="./img/content/card_bg_2.jpg" alt="" class="card-popup__img">
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae ea praesentium reiciendis iusto alias quas, porro, voluptates amet laboriosam quasi iste nihil ipsa hic quibusdam labore, perspiciatis mollitia neque?
+								</p>
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae ea praesentium reiciendis iusto alias quas, porro, voluptates amet laboriosam quasi iste nihil ipsa hic quibusdam labore, perspiciatis mollitia neque?
+								</p>
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae ea praesentium reiciendis iusto alias quas, porro, voluptates amet laboriosam quasi iste nihil ipsa hic quibusdam labore, perspiciatis mollitia neque?
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Третья карточка -->
+					<div class="card">
+						<div class="card__item">
+
+							<div class="card__image" id="card__image-3">
+								<img class="card__img-new" src="./img/content/new.png" alt="new">
+								<span class="card__imt-tag">
+									From GBP 3600
+								</span>
+							</div>
+							<div class="card__content">
+								<div class="card__caption">
+									<h3 class="card__title">
+										Ontario Tower , LONDON 3
+									</h3>
+									<p class="card__text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Lorem, ipsum, dolor.
+									</p>
+								</div>
+								<div class="card__progres-bar">
+									<div class="card__progress">
+										<div class="card__progress-fill" per="40">
+										</div>
+									</div>
+									<div class="card__progress-result">
+										<p>
+											<span class="card__progress-percent" per="40">40</span> 
+											<span>%</span>
+											<span>Funded</span>
+										</p>
+										<p>
+											8 Days Left
+										</p>
+									</div>
+								</div>
+								<div class="card__details">
+									<a class="card__link" id="card-link-3">
+										<span class="card__details-text">See Project Details</span>
+										<i class="fas fa-play card__details-icon"></i>
+									</a>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Третья попап карточка -->
+					<div class="card-popup__wrapper" id="card-popup-3">
+						<div class="card-popup__inner">
+							<div class="card-popup__top">
+								<button class="card-popup__close">
+									<i class="fas fa-times"></i>
+								</button>
+							</div>	
+
+							<div class="card-popup__content">
+								<h3 class="card-popup__title">
+									Ontario Tower , LONDON 3
+								</h3>
+								<img src="./img/content/card_bg_3.jpg" alt="" class="card-popup__img">
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae ea praesentium reiciendis iusto alias quas, porro, voluptates amet laboriosam quasi iste nihil ipsa hic quibusdam labore, perspiciatis mollitia neque?
+								</p>
+								<p class="card-popup__text">
+									Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sint culpa impedit porro, obcaecati, aspernatur eius fuga ratione corporis magnam voluptates, quisquam! Nihil non
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat vitae ea praesentium reiciendis iusto alias quas, porro, voluptates amet laboriosam quasi iste nihil ipsa hic quibusdam labore, perspiciatis mollitia neque?
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- -----------------  Пятая секция ---------------------   -->
+	<section class="fifth-sec">
+		<div class="container">
+			<div class="fifth-sec__inner">
+				<div class="fifth-sec__top">
+					<h3 class="fifth-sec__top-title">
+						Be Part of a Growing International Community
+					</h3>
+					<p class="fifth-sec__top-text">
+						One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you
+					</p>
+				</div>	
+				<div class="fifth-sec__comments">
+
+					<div class="fifth-sec__comment">
+						<div class="fifth-sec__comment-cloud">
+							<h3 class="fifth-sec__cloud-title">
+								One of the Best 
+							</h3>
+							<p class="fifth-sec__clout-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+						<div class="fifth-sec__comment-person">
+							<img src="./img/content/user_1.png" alt="" class="fifth-sec__person-img">
+							<span class="fifth-sec__person-name">
+								David Beckham
+							</span>
+						</div>
+					</div>
+
+					<div class="fifth-sec__comment">
+						<div class="fifth-sec__comment-cloud">
+							<h3 class="fifth-sec__cloud-title">
+								Exellent Service 
+							</h3>
+							<p class="fifth-sec__clout-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+						<div class="fifth-sec__comment-person">
+							<img src="./img/content/user_2.png" alt="" class="fifth-sec__person-img">
+							<span class="fifth-sec__person-name">
+								Martin Cloaden
+							</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<!-- ---------------  ПОДВАЛ  -----------------  -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__sponsors">
+					<img src="./img/footer/sponsors.png" alt="sponsors" class="sponsors__img">
+				</div>
+				<div class="footer__copiright">
+					<p class="footer__copiright-text">
+						Copyright © 2001 - 2014  Cssauthor.com
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Подключаем jQuery -->
+	<script src="./js/jquery.min.js"></script>
+	<!-- Подключаем слайдер Slick -->
+	<script src="./js/slick.min.js"></script>
+	<!-- Подключаем основной файл скриптов -->
+	<script src="./js/main.js"></script>
+</body>
+</html>

@@ -221,7 +221,8 @@ body::-webkit-scrollbar-thumb:vertical:hover {
 	text-transform: uppercase;
 	font-size: 14px;
 }
-.menu__link:hover {
+.menu__link:hover,
+.menu__link.active {
 	color: #bcda5c;
 	transition: .3s;
 }
@@ -314,6 +315,10 @@ body::-webkit-scrollbar-thumb:vertical:hover {
 	}
 }
 @media screen and (max-width: 350px) {
+	.login__btn {
+		padding: 6px 15px;
+		font-size: 12px;
+	}
 	.header {
 		height: 60px;
 	}
@@ -347,12 +352,8 @@ body::-webkit-scrollbar-thumb:vertical:hover {
     	left: 11px;
 	}
 }
-@media screen and (max-width: 300px) {
-	.login__btn {
-		padding: 6px 15px;
-		font-size: 12px;
-	}
-}
+
+
 
 
 
